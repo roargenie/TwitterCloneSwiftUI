@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6DFAC4B299BD27200C420A0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DFAC4A299BD27200C420A0 /* FeedView.swift */; };
 		F6E1C997299A5AEF00E4E282 /* TwitterCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1C996299A5AEF00E4E282 /* TwitterCloneApp.swift */; };
 		F6E1C999299A5AEF00E4E282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E1C998299A5AEF00E4E282 /* ContentView.swift */; };
 		F6E1C99B299A5AF000E4E282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E1C99A299A5AF000E4E282 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6DFAC4A299BD27200C420A0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F6E1C993299A5AEF00E4E282 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E1C996299A5AEF00E4E282 /* TwitterCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneApp.swift; sourceTree = "<group>"; };
 		F6E1C998299A5AEF00E4E282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6DFAC46299BD23700C420A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6DFAC48299BD24000C420A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1C998299A5AEF00E4E282 /* ContentView.swift */,
+				F6DFAC4A299BD27200C420A0 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6DFAC49299BD24200C420A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F6E1C98A299A5AEF00E4E282 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +76,10 @@
 		F6E1C995299A5AEF00E4E282 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				F6DFAC49299BD24200C420A0 /* Model */,
+				F6DFAC48299BD24000C420A0 /* View */,
+				F6DFAC46299BD23700C420A0 /* ViewModel */,
 				F6E1C996299A5AEF00E4E282 /* TwitterCloneApp.swift */,
-				F6E1C998299A5AEF00E4E282 /* ContentView.swift */,
 				F6E1C99A299A5AF000E4E282 /* Assets.xcassets */,
 				F6E1C99C299A5AF000E4E282 /* Preview Content */,
 			);
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E1C999299A5AEF00E4E282 /* ContentView.swift in Sources */,
+				F6DFAC4B299BD27200C420A0 /* FeedView.swift in Sources */,
 				F6E1C997299A5AEF00E4E282 /* TwitterCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
